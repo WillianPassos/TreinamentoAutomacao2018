@@ -1,0 +1,245 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      },
+      {
+        "line": 2,
+        "value": "# Author: Willian Passos"
+      },
+      {
+        "line": 3,
+        "value": "# encoding UTF-8"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 894094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroContaMercadoLivre.inicializa()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Realizar início de cadastro com sucesso",
+        "description": "",
+        "id": "cadastro-no-mercado-livre;realizar-início-de-cadastro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7816721609,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu acesse a página de cadastro do Mercado Livre",
+            "match": {
+              "location": "CadastroContaMercadoLivre.que_eu_acesse_a_página_de_cadastro_do_Mercado_Livre()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1124876730,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho os dados para criar um usuário novo",
+            "match": {
+              "location": "CadastroContaMercadoLivre.preencho_os_dados_para_criar_um_usuário_novo(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Nome",
+                  "Willian"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Sobrenome",
+                  "Passos"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Email",
+                  "willianpassosteste@gmail.com"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Senha",
+                  "Teste@1234"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 636268580,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "prossigo para tela seguinte",
+            "match": {
+              "location": "CadastroContaMercadoLivre.prossigo_para_tela_seguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1118218417,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "conta criada com sucesso",
+            "match": {
+              "location": "CadastroContaMercadoLivre.é_apresentada_tela_inicial_do_Mercado_Livre()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroContaMercadoLivre.inicializa()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Tentar cadastrar um usuário ja cadastrado",
+        "description": "",
+        "id": "cadastro-no-mercado-livre;tentar-cadastrar-um-usuário-ja-cadastrado",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 6212271847,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que eu acesse a página de cadastro do Mercado Livre",
+            "match": {
+              "location": "CadastroContaMercadoLivre.que_eu_acesse_a_página_de_cadastro_do_Mercado_Livre()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 788309526,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho os dados para criar um usuário novo",
+            "match": {
+              "location": "CadastroContaMercadoLivre.preencho_os_dados_para_criar_um_usuário_novo(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Nome",
+                  "Willian"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Sobrenome",
+                  "Passos"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "Email",
+                  "willianpassosteste@gmail.com"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "Senha",
+                  "Teste@1234"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 626893875,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "prossigo para tela seguinte",
+            "match": {
+              "location": "CadastroContaMercadoLivre.prossigo_para_tela_seguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2577278906,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "confirmo que ja tenho um cadastro",
+            "match": {
+              "location": "CadastroContaMercadoLivre.confirmo_que_ja_tenho_um_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3905391157,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "insiro minha senha novamente para entrar na conta exixtente",
+            "match": {
+              "location": "CadastroContaMercadoLivre.insiro_minha_senha_novamente_para_entrar_na_conta_exixtente(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Senha",
+                  "Teste@1234"
+                ],
+                "line": 29
+              }
+            ],
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro no Mercado Livre",
+    "description": "A fim de utilizar os serviços do Mercado Livre, eu realizo o cadastro de um novo usuário",
+    "id": "cadastro-no-mercado-livre",
+    "keyword": "Funcionalidade",
+    "uri": "CadastroContaMercadoLivre.feature"
+  }
+]

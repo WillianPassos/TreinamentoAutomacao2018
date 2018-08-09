@@ -1,0 +1,65 @@
+2018-07-10 12:20:07,771 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-10 12:21:16,845 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.automacao.java.web:poc_automacao_java:0.0.1-SNAPSHOT @ C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\pom.xml.
+2018-07-10 12:21:16,845 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.automacao.java.web:poc_automacao_java:0.0.1-SNAPSHOT @ C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\pom.xml.
+2018-07-10 12:21:19,227 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:19,227 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:21:19,229 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:19,234 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:21:21,210 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.automacao.java.web:poc_automacao_java:0.0.1-SNAPSHOT @ C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\pom.xml.
+2018-07-10 12:21:21,591 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:21,591 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:21:21,594 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:21,600 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:21:23,280 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:23,281 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:21:23,282 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:21:23,283 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 12:27:24,081 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:27:24,081 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:27:24,082 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:27:24,084 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 12:35:42,680 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:35:42,680 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:35:42,682 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:35:42,682 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 12:37:56,363 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:37:56,364 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:37:56,365 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:37:56,367 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:38:39,217 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:38:39,218 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:38:39,220 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:38:39,221 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:41:39,511 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:41:39,512 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:41:39,513 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:41:39,514 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 12:45:05,396 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:45:05,401 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:45:05,405 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:45:05,406 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 12:46:39,472 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:46:39,472 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:46:39,475 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:46:39,477 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:54:29,883 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:54:29,884 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:54:29,885 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:54:29,887 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:54:34,305 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:54:34,305 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:54:34,307 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:54:34,309 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-10 12:56:04,169 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:56:04,169 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 12:56:04,176 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 12:56:04,176 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 13:28:24,916 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 13:28:24,917 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 13:28:24,918 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 13:28:24,918 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-10 13:49:19,518 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 13:49:19,518 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\wpassos\eclipse-workspace6\framework_bdd_cucumber.zip_expanded5.zip_expanded\framework_bdd_cucumber.zip_expanded\framework_bdd_cucumber\src\main\resources
+2018-07-10 13:49:19,518 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-10 13:49:19,518 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-10 14:47:39,318 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
