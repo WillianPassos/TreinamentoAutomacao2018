@@ -1,0 +1,27 @@
+package br.com.framework.page;
+
+import br.com.framework.core.BasePage;
+
+public class EnviaEmail extends BasePage {
+
+	public void setUserName(String email) {
+		dsl.escreve("identifierId", email);
+	}
+	
+	public void Proximo() {
+		dsl.clicarPorXpath("//span[contains(text(),'Próxima')]");
+	}
+	
+	public void setSenha(String senha) {
+		dsl.escreve1("password", senha);
+	}
+	
+	public void Confirmar() {
+		dsl.clicarPorXpath("//div[@id='passwordNext']//content[@class='CwaK9']");
+	}
+	
+	public void EscolherServiço() {
+		dsl.clicarPorXpath("//a[@class='WaidBe']");
+	}
+	
+}

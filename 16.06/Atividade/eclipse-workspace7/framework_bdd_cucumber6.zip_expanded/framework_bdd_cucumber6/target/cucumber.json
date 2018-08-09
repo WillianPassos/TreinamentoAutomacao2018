@@ -1,0 +1,170 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      },
+      {
+        "line": 2,
+        "value": "# Author: Willian Passos"
+      },
+      {
+        "line": 3,
+        "value": "# encoding UTF-8"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1099356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EviaEmailTeste.inicializa()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Enviar um email com minha conta google",
+        "description": "",
+        "id": "enviar-email;enviar-um-email-com-minha-conta-google",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 5019728325,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu acesse a página de login do gmail",
+            "match": {
+              "location": "EviaEmailTeste.que_eu_acesse_a_página_de_login_do_gmail()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 522194931,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informo meu endereço de email",
+            "match": {
+              "location": "EviaEmailTeste.informo_meu_endereço_de_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "wpassos@svlabs.com.br"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 689090152,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "prossigo para tela seguinte",
+            "match": {
+              "location": "EviaEmailTeste.prossigo_para_tela_seguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 597359193,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informar senha",
+            "match": {
+              "location": "EviaEmailTeste.informar_senha(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Senha",
+                  "estagiario@2018"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 422814367,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "pressigo para proxima tela",
+            "match": {
+              "location": "EviaEmailTeste.pressigo_para_proxima_tela()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11110832633,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "escolho a opção de serviço",
+            "match": {
+              "location": "EviaEmailTeste.escolho_a_opção_de_serviço()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 906618197,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vou para opção escrever novo emial",
+            "match": {
+              "location": "EviaEmailTeste.vou_para_opção_escrever_novo_emial(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Endereco",
+                  "wpassos@svlabs.com.br"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1128012096,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "envio o emial",
+            "match": {
+              "location": "EviaEmailTeste.envio_o_emial()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Enviar Email",
+    "description": "A fim de enviar um email , irei logar com minha conta google",
+    "id": "enviar-email",
+    "keyword": "Funcionalidade",
+    "uri": "CadastroContaMercadoLivre.feature"
+  }
+]

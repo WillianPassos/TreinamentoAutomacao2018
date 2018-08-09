@@ -1,0 +1,30 @@
+package br.com.framework.test;
+
+import java.util.Map;
+
+import static br.com.framework.core.DriverFactory.getDriver;
+import br.com.framework.core.BaseTest;
+import br.com.framework.core.DriverFactory;
+import br.com.framework.page.EnviaEmail;
+import cucumber.api.DataTable;
+import cucumber.api.java.Before;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.it.Quando;
+import cucumber.api.java.pt.Então;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class EviaEmailTeste extends BaseTest {
+
+	private EnviaEmail page;
+	
+	@Before
+	public void inicializa() {
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/Driver/chromedriver.exe");
+		page = new EnviaEmail();
+		BaseTest.testName = "Cadastro no Mercado Livre";
+	}
+	
+}

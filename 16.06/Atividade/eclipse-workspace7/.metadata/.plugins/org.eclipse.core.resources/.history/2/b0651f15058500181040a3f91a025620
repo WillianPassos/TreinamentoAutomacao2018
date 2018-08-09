@@ -1,0 +1,60 @@
+package br.com.framework.test;
+
+import java.util.Map;
+
+import static br.com.framework.core.DriverFactory.getDriver;
+import br.com.framework.core.BaseTest;
+import br.com.framework.core.DriverFactory;
+import br.com.framework.page.EnviaEmail;
+import cucumber.api.DataTable;
+import cucumber.api.java.Before;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.it.Quando;
+import cucumber.api.java.pt.Então;
+
+public class EviaEmailTeste extends BaseTest {
+
+	private EnviaEmail page;
+	
+	@Before
+	public void inicializa() {
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/Driver/chromedriver.exe");
+		page = new EnviaEmail();
+		BaseTest.testName = "Cadastro no Mercado Livre";
+	}
+	
+	@Dado("^que eu acesse a página de login do gmail$")
+	public void que_eu_acesse_a_página_de_login_do_gmail() throws Throwable {
+		getDriver().get("https://accounts.google.com/signin/v2/identifier?service=orkut&hl=pt-BR&rm&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
+		BaseTest.takeScreenshot();
+	}
+
+	@Quando("^informo meu endereço de email$")
+	public void informo_meu_endereço_de_email(DataTable arg1) throws Throwable {
+		Map<String, String> list = arg1.asMap(String.class, String.class);
+		page.setUserName(list.get("Email"));
+		BaseTest.takeScreenshot();
+	}
+	
+	@Quando("^prossigo para tela seguinte$")
+	public void prossigo_para_tela_seguinte1() throws Throwable {
+		page.Proximo();
+		BaseTest.takeScreenshot();
+	}
+
+	@Quando("^informar senha$")
+	public void prossigo_para_tela_seguinte(DataTable arg2) throws Throwable {
+		Map<String, String> list = arg2.asMap(String.class, String.class);
+		page.setSenha(list.get("Senha"));
+		BaseTest.takeScreenshot();
+	}
+
+	@Então("^escolho a opção de serviço$")
+	public void é_apresentada_tela_inicial_do_Mercado_Livre() throws Throwable {
+		page.EscolherServiço();
+		BaseTest.takeScreenshot();
+		DriverFactory.killDriver();
+	}
+	
+	
+}

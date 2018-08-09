@@ -1,0 +1,17 @@
+# language: pt
+# Author: Willian Passos
+# encoding UTF-8
+
+Funcionalidade: Enviar Email
+	A fim de enviarum email , irei logar com minha conta google
+
+Cenário: Enviar um email com minha conta google
+    Dado que eu acesse a página de login do gmail
+    Quando informo meu endereço de email
+      |  Email      | wpassos@svlabs.com.br       |
+      E prossigo para tela seguinte
+    Quando informar senha
+      |  Senha      | estagiario@2018             |
+      E presigo para proxima tela
+    Então escolho a opção de serviço
+

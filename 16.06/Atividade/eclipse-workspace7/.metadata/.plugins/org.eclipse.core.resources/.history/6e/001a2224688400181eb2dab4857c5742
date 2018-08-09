@@ -1,0 +1,8 @@
+package br.com.framework.page;
+
+import br.com.framework.core.BasePage;
+
+public class EnviaEmail extends BasePage {
+
+	
+}
