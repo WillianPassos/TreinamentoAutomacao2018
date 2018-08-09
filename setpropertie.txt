@@ -1,0 +1,3 @@
+System.setProperty("webdriver.chrome.driver", "src/test/resources/Driver/chromedriver.exe");
+		page = new CadastroContaGooglePage();
+		BaseTest.testName = "Cadastro no Google";

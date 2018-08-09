@@ -1,0 +1,9 @@
+Menu Help > Install New Software
+
+Clicar em Add...
+
+Em Location informar a url: http://cucumber.github.io/cucumber-eclipse/update-site/ e clicar no botão OK;
+
+Selecionar "Cucumber Eclipse Plugin" e avançar até o fim.
+
+Caso seja solicitado para reiniciar o Eclipse, confirme.
