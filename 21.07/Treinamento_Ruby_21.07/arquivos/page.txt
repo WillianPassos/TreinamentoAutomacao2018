@@ -1,0 +1,17 @@
+class CadastroPage < SitePrism::Page
+    element :campo_nome, '#firstName'
+    element :campo_sobrenome, '#lastName'
+    element :campo_usuario, '#username'
+    element :campo_senha, "input[name='Passwd']"
+    element :campo_confirmar_senha, "input[name='ConfirmPasswd']"
+    element :campo_proxima_etapa, "span[class='RveJvd snByac']"
+    
+    def cadastro_google(nome, sobrenome, usuario, senha, confirmar_senha)
+        campo_nome.set nome
+        campo_sobrenome.set sobrenome
+        campo_usuario.set usuario
+        campo_senha.set senha
+        campo_confirmar_senha.set confirmar_senha
+        campo_proxima_etapa.click
+     end
+end

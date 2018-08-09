@@ -1,0 +1,128 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      },
+      {
+        "line": 2,
+        "value": "# encoding UTF-8"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 953861,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroContaGoogle.inicializa()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Realizar início de cadastro com sucesso",
+        "description": "",
+        "id": "cadastro-no-google;realizar-início-de-cadastro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 5413490374,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesse a página de cadastro do Google",
+            "match": {
+              "location": "CadastroContaGoogle.que_eu_acesse_a_página_de_cadastro_do_Google()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2216915883,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho os dados para criar um usuário novo",
+            "match": {
+              "location": "CadastroContaGoogle.preencho_os_dados_para_criar_um_usuário_novo(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Nome",
+                  "Wilson"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Sobrenome",
+                  "Barboza"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Email",
+                  "wilsonbarboza12345678901"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Senha",
+                  "Teste@123"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Confirmar",
+                  "Teste@123"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 539289875,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "prossigo para tela seguinte",
+            "match": {
+              "location": "CadastroContaGoogle.prossigo_para_tela_seguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1154741943,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "é apresentada tela para informar o número de celular",
+            "match": {
+              "location": "CadastroContaGoogle.é_apresentada_tela_para_informar_o_número_de_celular()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro no Google",
+    "description": "A fim de utilizar os serviços do Google, eu realizo o cadastro de um novo usuário",
+    "id": "cadastro-no-google",
+    "keyword": "Funcionalidade",
+    "uri": "cadastrogoogle.feature"
+  }
+]

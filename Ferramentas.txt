@@ -1,0 +1,25 @@
+BDD (Desenvolvimento Guiado por Comportamento) - É uma técnica de desenvolvimento Ágil
+
+Cucumber - É um framework criado para escrita de especificações de comportamento do software
+
+Gherkin - È a linguagem natural, para descrever os comportamentos do software de uma maneira fácil por pessoas que não são programadores
+
+Selenium WebDriver - É uma API, que permite a escrita de forma mais robusta, produtiva e organizada de casos de testes, através de diversos métodos já disponibilizados
+
+Maven - É uma ferramenta de automação e gerenciamento de compilação de projetos Java
+
+JUnit - É um framework open-source para Testes Unitários
+
+Capybara - É um framework de Testes de aceitação para aplicações web, é uma biblioteca escrita na linguagem de programação Ruby que facilita a simulação de como um usuário interage com seu aplicativo
+
+SitePrism - É uma DSL (Domain Specific Language) criada para facilitar a criação de page objects para testes automatizados em Ruby,utilizando o Capybara
+
+
+
+Plugin - É um programa de computador usado para adicionar funções a outros programas maiores, provendo alguma funcionalidade especial ou muito específica.
+Framework - É uma abstração que une códigos comuns entre vários projetos de software provendo uma funcionalidade genérica.
+	    Framework de software compreende de um conjunto de classes implementadas em uma linguagem de programação específica, usadas para auxiliar o desenvolvimento de software.
+API - É um conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades por aplicativos que não pretendem envolver-se em detalhes da implementação do software.
+      De modo geral, a API é composta por uma série de funções acessíveis somente por programação, e que permitem utilizar características do software menos evidentes ao utilizador tradicional.
+
+https://pt.stackoverflow.com/questions/17501/qual-%C3%A9-a-diferen%C3%A7a-de-api-biblioteca-e-framework
